@@ -69,6 +69,7 @@ notely/
 ├── assets/                 # Images, screenshots, etc.
 ├── pubspec.yaml            # Flutter dependencies and assets.
 └── README.md
+```
 
 ## What I Learned
 
