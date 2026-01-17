@@ -55,14 +55,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   String initial(String content) {
-    if (content.trim().isEmpty) {
+    final fullName = content.trim();
+    if (fullName.isEmpty) {
       return '';
     }
-    final split = content.split(' ');
+    final split = fullName.split(' ');
     if (split.length > 1) {
       return "${split[0][0]}${split[1][0]}".toUpperCase();
     } else {
-      return split[0][0];
+      return split[0][0].toUpperCase();
     }
   }
 

@@ -11,6 +11,7 @@ import 'package:notely/presentation/widget/app_text.dart';
 import 'package:notely/routes/route_names.dart';
 
 class AppRoutes {
+  
   static Route _errorRoute() {
     return MaterialPageRoute(
       builder: (_) => const Scaffold(
